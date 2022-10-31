@@ -139,7 +139,7 @@ class AppOpenAdsManager(private val app: MyApp) : LifecycleObserver,
         if (mInterstitialAd == null) {
 
             InterstitialAd.load(
-                currentActivity,
+                app,
                 testAdsId,
                 AdRequest.Builder().build(),
                 object : InterstitialAdLoadCallback() {

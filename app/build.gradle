@@ -41,8 +41,8 @@ dependencies {
     implementation 'com.google.android.material:material:1.7.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 
-    //  implementation 'com.github.axarathhtech06052022:AdLibrary:1.0.0'
-    implementation project(':adslibrarycode')
+    implementation 'com.github.axarathhtech06052022:AdLibrary:v1.0.0-alpha1'
+    //implementation project(':adslibrarycode')
     implementation 'androidx.work:work-runtime:2.7.1'
     implementation 'com.google.android.gms:play-services-ads:21.3.0'
     implementation 'com.github.bumptech.glide:glide:4.13.2'

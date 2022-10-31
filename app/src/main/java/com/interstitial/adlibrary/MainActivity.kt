@@ -3,8 +3,6 @@ package com.interstitial.adlibrary
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.allads.adslibrarycode.CloseAds
-import com.allads.adslibrarycode.showAds
 import com.example.adlibrary.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -19,13 +17,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnNext.setOnClickListener {
-            showAds(this@MainActivity, object : CloseAds {
-                override fun onCloseAds() {
-                    var intent = Intent(this@MainActivity, NextActivity::class.java)
-                    startActivity(intent)
-                }
-
-            })
+//            showAds(this@MainActivity, object : CloseAds {
+//                override fun onCloseAds() {
+//                    var intent = Intent(this@MainActivity, NextActivity::class.java)
+//                    startActivity(intent)
+//                }
+//
+//            })
         }
     }
 }
